@@ -2,6 +2,7 @@ import React from 'react'
 import TotalScore from './TotalScore';
 import styled from 'styled-components'
 import NumberSelector from './NumberSelector';
+import RoleDice from './RoleDice';
 
 const GamePlay = () => {
   return (
@@ -10,6 +11,7 @@ const GamePlay = () => {
      <TotalScore/>
       <NumberSelector/>
      </div>
+     <RoleDice/>
     </MainContainer>
   )
 }
